@@ -7,6 +7,7 @@ class MyComponent extends React.Component {
     this.handleEnter = this.handleEnter.bind(this);
     this.handleKeyPress = this.handleKeyPress.bind(this);
   }
+  //here
   componentDidMount() {
     document.addEventListener("keydown",this.handleKeyPress)
   }
